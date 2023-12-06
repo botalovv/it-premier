@@ -29,7 +29,7 @@
     /* background-color: lightblue; */
     /* background-image: linear-gradient(#e66465, #9198e5); */
     /* background-image: linear-gradient(to bottom right, rgb(70, 235, 219), rgb(235, 70, 98)); */
-    background: rgba(12, 129, 129, 0.5);
+    background: rgba(79, 245, 245, 0.5);
     transition: backgroung-image 0.5s ease-in; 
     border: 2px solid white;
     width: 500px;
