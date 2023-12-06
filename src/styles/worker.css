@@ -1,0 +1,73 @@
+.worker {
+    display: flex;
+    color: black;
+    background: rgba(140, 184, 255, 0.5);
+    border: 2px solid white;
+    width: 500px;
+    height: 68px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    /* transition-duration: 0.7s; */
+    /* transition: background-color 0.7s ease-in-out; */
+   
+}
+
+.worker:hover {
+    background: rgba(140, 221, 255, 0.8);
+    animation: flashing 1s ease-in 0s infinite normal backwards;
+    /* transition: backgroundСolor 0.7s ease-in-out; */
+}
+
+.cover {
+    display: flex;
+    /* background: linear-gradient(to-right, blue, red, pink, yellow); */
+    /* background-color: lightblue; */
+    /* background-image: linear-gradient(#e66465, #9198e5); */
+    /* background-image: linear-gradient(to bottom right, rgb(70, 235, 219), rgb(235, 70, 98)); */
+    background: rgba(12, 129, 129, 0.5);
+    transition: backgroung-image 0.5s ease-in; 
+    border: 2px solid white;
+    width: 500px;
+    height: 68px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 0px;
+}
+
+.cover:hover { 
+    /* background-image: linear-gradient(to top left, rgb(70, 235, 219), rgb(235, 70, 98));     */
+    transform: scale(1.03);   
+    
+}
+
+@keyframes flashing {
+    0% {
+        background: rgba(140, 184, 255, 0.5);    
+    }
+    50% {
+        background: rgba(140, 221, 255, 0.8);
+    }
+    100% {
+        background: rgba(140, 184, 255, 0.5); 
+    }
+};
+
+@keyframes coverBacklight {
+    0% {
+        
+    }
+
+    100% {
+
+    }
+}
